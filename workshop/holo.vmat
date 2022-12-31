@@ -1,0 +1,54 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_hud_panel.vfx"
+
+	//---- Animation ----
+	TextureFlickeringAnimation ""
+
+	//---- Animation 1 ----
+	g_flAnimation1Scale "1.000"
+	g_flAnimation1Speed "0.125"
+	g_flAnimation1Strength "1.000"
+	g_flFlickering1Speed "0.500"
+	TextureScanlinesMoving1 ""
+
+	//---- Animation 2 ----
+	g_flAnimation2Scale "1.000"
+	g_flAnimation2Speed "0.500"
+	g_flAnimation2Strength "1.000"
+	g_flFlickering2Speed "0.250"
+	TextureScanlinesMoving2 ""
+
+	//---- Chromatic Abberation ----
+	g_flGreenShift "0.920"
+	g_flJitterSpeed "1.700"
+	TextureJitterControl "materials/default/default.tga"
+
+	//---- Color ----
+	TextureColor "materials/holo/defaultmaterial_mixed_ao.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Fresnel 1 ----
+	g_flFresnel1Power "1.000"
+	g_flFresnel1Strength "2.000"
+	g_vFresnel1Color "[1.000000 0.501961 0.000000 0.000000]"
+
+	//---- Fresnel 2 ----
+	g_flFresnel2Power "2.000"
+	g_flFresnel2Strength "8.000"
+	g_vFresnel2Color "[1.000000 0.800000 0.200000 0.000000]"
+
+	//---- Hot Spot ----
+	g_flHotSpotStrength "1.000"
+	TextureBrightPixels ""
+
+	//---- Scan Line ----
+	TextureScanlines "materials/workshop_examples/monitor/scanline_1024.png"
+
+	//---- Translucent ----
+	TextureTranslucency "materials/default/default_trans.tga"
+}
